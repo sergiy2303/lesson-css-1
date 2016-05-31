@@ -2,7 +2,34 @@
 <html>
 <head>
   <title></title>
+    <link rel="stylesheet" href="flex.css">
 </head>
+<style>
+    div.pm {
+        width: 250px;
+        height: 250px;
+        background: #ff0;
+        border: 1px solid black;
+        margin: 10px;
+        box-shadow: 10px 5px 5px black;
+        border-radius: 5px; 
+    
+    }   
+    body {
+        margin: 5px;
+        border: 1 px solid black;
+        padding: 20px;
+        height: 600px;
+    }
+    .flexbox {
+        display: flex;
+        flex-flow: row wrap; 
+        justify-content: space-between;
+    }    
+     
+    
+    
+</style>
 <body>
 <!-- Make this divs 250x250px size and add border -->
 <!-- Distance beetween divs should be 10px -->
@@ -13,19 +40,21 @@
 <!-- When screen width ≥1170px it should be quad column -->
 <!-- Fill free with adding anything -->
 <!-- Read about responsive design -->
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
+ <div class="flexbox">
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+ 
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+ 
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+     <div class="pm mp"></div>
+</div>
 </body>
 </html>
